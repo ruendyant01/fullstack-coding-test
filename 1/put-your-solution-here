@@ -1,0 +1,7 @@
+let intersection;
+
+if(A.length < B.length) {
+  intersection = B.filter(val => A.includes(val));
+} else {
+  intersection = A.filter(val => B.includes(val));
+}
